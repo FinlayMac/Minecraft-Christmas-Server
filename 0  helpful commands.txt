@@ -1,0 +1,62 @@
+*********To run the server:***********
+1. open CMD
+2. Navigate to this directory using cd
+
+3. run this command:
+java -jar server(1).jar --nogui
+
+This starts the server without the GUI saving performance.
+
+4. Stop the server by typing: stop
+
+
+
+********Changing world***********
+To get the server to run the correct game world, all you need to do is change the server.properties file inside this directory.
+
+1. Delete Server.properties in this directory
+2. Inside Hotswap files dir, COPY the appropriate properties file to root.
+3. Rename this new properties file to server.properties
+
+
+E.g. christmasBrawl.server.properties -> server.properties
+
+
+*********Other useful:***********
+/tp [TargetPlayer] x y z
+
+
+/weather WeatherType
+Allows you to choose the weather or your world. Options include: rain, thunder and snow.
+
+
+Set time
+/time set 1000
+Sets the time to day. Replace “1000” with “0” for dawn, “6000” for midday, “12000” for dusk and “18000” for night.
+
+
+/gamerule doDaylightCycle false
+/gamerule doDaylightCycle true
+
+/gamerule doMobSpawning false
+
+
+inside properties
+gamemode=survival
+gamemode=creative
+
+allow-flight=true
+allow-flight=false
+
+/gamemode creative
+
+
+spawn-monsters=false
+spawn-monsters=true
+
+
+spawn-protection=16
+spawn-protection=0
+
+enable-command-block=true
+enable-command-block=false

@@ -1,0 +1,5 @@
+If you want to restore a world to the original,
+extract the folder you want, and copy the contents into
+its corresponding folder at root.
+
+E.g. Christmas_Brawl.zip contents --> christmas-brawl
